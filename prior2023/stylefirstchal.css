@@ -1,0 +1,22 @@
+.container
+{
+text-align:center;
+border: 0.1em;
+border-radius:2em;
+/*margin:5em 40em 5em 40em;*/
+background-color:white;
+padding: 1em;
+}
+
+
+
+img
+{
+border-radius:2em;
+}
+
+
+body
+{
+background-color: #D3D3D3;
+}
