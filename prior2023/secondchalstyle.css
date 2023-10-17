@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+.wrapper
+{
+background-color:hsl(210, 46%, 95%);
+}
+
+.container
+{
+ display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+grid-template-rows:1fr 1fr;
+grid-gap:2em;
+
+font-family:'Barlow Semi Condensed', sans-serif;
+font-size:20px;
+font-weight:500;
+color:neutral gray;
+padding:5em;
+}
+
+.container > :first-child
+{
+grid-column: 1/3;
+}
+
+.container > :nth-child(4)
+{
+grid-column: 2/4;
+}
+
+.container > :nth-child(5)
+{
+grid-column: 4;
+grid-row:1/3;
+} 
+
+.testim
+{
+border:0.2em;
+border-radius:0.7em;
+padding:2em;
+}
+
+.testim.a
+{
+border:0.1em solid hsl(263, 55%, 52%);
+background-color:hsl(263, 55%, 52%);
+color:white;
+
+}
+
+.testim.b
+{
+
+background-color:hsl(217, 19%, 35%);
+color:white;
+}
+
+.testim.c
+{
+background-color:hsl(0, 0%, 100%);
+}
+
+.testim.d
+{
+background-color:hsl(219, 29%, 14%);
+color:white;
+}
+
+.testim.e
+{
+background-color:hsl(0, 0%, 100%);
+}
+
+.subhead
+{
+opacity:1;
+font-size:20px;
+font-weight:600;
+letter-spacing:0.08em;
+}
+
+.mainpara
+{
+opacity:0.75;
+}
+
+.names
+{
+display:grid;
+grid-template-columns:0.10fr 1fr;
+grid-column-gap:0.7em;
+}
+
+.names>:first-child
+{
+ grid-row:1/3;
+}
+.names>:nth-child(3)
+ {
+  grid-column:2;
+  grid-row:2/3;
+ }
+
+img
+{
+width:2em;
+ border-radius:50em;
+}
+
+.desig
+{
+opacity:0.5;
+}
