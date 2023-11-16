@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+         <meta charset="UTF-8"/>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+         <link
+             href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+             rel="stylesheet"
+         />
+         <link rel="stylesheet" href="./style.css" />
+         <script src="./main.js" defer> </script>
+         <title>Landing Page</title>
+     </head>
+     <body>
+          <main>
+            <header>
+                <div>
+                <label for="movies">Pick a movie: </label>
+                <select name="movies" id="movies">
+                    <option value="jailer">Jailer</option>
+                    <option value="leo">Leo</option>
+                    <option value="japan">Japan</option>
+                </select>   
+                </div>
+            </header>
+            <section id="seat-section">
+                <template id="seat-template"> 
+                <button class="seat-btn"></button>
+                </template>
+
+                <div class="left-columns columns"></div>
+                <div class="center-columns columns"></div>
+                <div class="right-columns columns"></div>
+
+            </section>
+            <footer></footer>
+          </main>
+    </body>
+    </html>

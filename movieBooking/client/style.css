@@ -1,0 +1,54 @@
+main {
+    width: 30rem;
+    height: 20rem;
+    border: 1px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 5rem;
+    border: 1px solid;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 10rem;
+    border: 2px solid;
+    place-items: center;
+}
+
+button {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+    margin: 0 0.25rem;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.columns {
+    height: 8rem;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-columns {
+   width: 7rem;
+}
+
+.center-columns {
+    width: 14rem;
+}
+.right-columns {
+    width: 7rem;
+ }
